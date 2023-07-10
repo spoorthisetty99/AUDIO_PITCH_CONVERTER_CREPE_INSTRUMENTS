@@ -23,3 +23,9 @@ another method to get csv file is from python code which is given above as "crep
 crepe_original_piano.py will have the second audio u will want to compare,this will as well create another csv file
 
 finally piano_compare will be the file which will compare both these audios and give output comparing and giving comment to the user
+
+
+OUTPUTS:
+
+![guitar_flute](https://github.com/spoorthisetty99/AUDIO_PITCH_CONVERTER_CREPE_intruments/assets/117083687/a36f132a-a96e-4e02-a17f-e34be1a6466f)
+![Screenshot from 2023-07-10 20-29-53](https://github.com/spoorthisetty99/AUDIO_PITCH_CONVERTER_CREPE_intruments/assets/117083687/1d74142c-fc95-4103-b64c-7535a652d043)
