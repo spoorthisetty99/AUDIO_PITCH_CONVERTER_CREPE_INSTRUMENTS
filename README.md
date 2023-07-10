@@ -20,3 +20,6 @@ crepe ~/audio_sample.csv
 another method to get csv file is from python code which is given above as "crepe_original" , have to input audio name as well as the csv file that will be created.
 
 
+crepe_original_piano.py will have the second audio u will want to compare,this will as well create another csv file
+
+finally piano_compare will be the file which will compare both these audios and give output comparing and giving comment to the user
