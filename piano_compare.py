@@ -4,8 +4,8 @@ import librosa
 import matplotlib.pyplot as plt
 from art import *
 
-a = np.loadtxt(open(expanduser('audio*.f0.csv'), 'rb'), delimiter=',', skiprows=1)
-b = np.loadtxt(open(expanduser('audio*.f0.csv'), 'rb'), delimiter=',', skiprows=1)
+a = np.loadtxt(open(expanduser('song.f0.csv'), 'rb'), delimiter=',', skiprows=1)
+b = np.loadtxt(open(expanduser('Flue_song_R_f0.csv'), 'rb'), delimiter=',', skiprows=1)
 
 # Crop the files to the size of the smaller file
 min_length = min(len(a), len(b))
