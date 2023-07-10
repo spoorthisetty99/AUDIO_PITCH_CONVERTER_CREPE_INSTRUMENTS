@@ -6,14 +6,14 @@ import librosa
 import matplotlib.pyplot as plt
 
 # Load the audio file
-sr, audio = wavfile.read(expanduser('audio*.wav'))
+sr, audio = wavfile.read(expanduser('song.wav'))
 
 # Use Crepe to predict the pitch
 time, frequency, confidence, activation = crepe.predict(audio, sr, viterbi=True)
 
 # Save the pitch values to a CSV file
 data = np.column_stack((time, frequency, confidence))
-np.savetxt(expanduser('piano.f0..csv'), data,
+np.savetxt(expanduser('song.f0.csv'), data,
            ['%.3f', '%.3f', '%.6f'],
            header='time,frequency,confidence', delimiter=',')
 
