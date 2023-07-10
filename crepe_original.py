@@ -13,7 +13,7 @@ time, frequency, confidence, activation = crepe.predict(audio, sr, viterbi=True)
 
 # Save the pitch values to a CSV file
 data = np.column_stack((time, frequency, confidence))
-np.savetxt(expanduser('~/violin-A-pluck.f0-python.csv'), data,
+np.savetxt(expanduser('Flue_song_R_f0.csv'), data,
            ['%.3f', '%.3f', '%.6f'],
            header='time,frequency,confidence', delimiter=',')
 
